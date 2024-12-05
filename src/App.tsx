@@ -1,11 +1,9 @@
-import MainContent from './Components/MainContent'
-import SideBarPanel from './Components/SideBarPanel'
+import DashBoard from './Layouts/Dashboard'
 
 function App() {
   return (
     <>
-      <SideBarPanel />
-      <MainContent />
+      <DashBoard />
     </>
   )
 }
